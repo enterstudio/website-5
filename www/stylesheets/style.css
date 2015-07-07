@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  background-color: #f8f7f5;
+  color: #333;
+}
+
+a, a:visited {
+	color: #333;
+}
+
+a:hover, a:active  {
+	color: red;
+}
+
+.page-wrap {
+	text-align: center;
+}
+
+.page-view {
+	width: 80%;
+	display: inline-block;
+	max-width: 1200px;
+}
+
+.header {
+	padding: 20px;
+	text-align: center;
+}
+
+.splitter {
+	width: 100%;
+	display: block;
+	padding: 0 10px;
+
+}
+
+.splitter-line {
+	display: block;
+	height: 1px;
+	border-bottom: 1px solid #ccc;
+	}
+
+.content {
+	text-align: left;
+	width: 100%;
+}
