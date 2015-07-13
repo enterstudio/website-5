@@ -16,6 +16,16 @@ a:hover, a:active  {
 	color: red;
 }
 
+h3 {
+  text-align: center;
+  font-size: 26px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
 .page-wrap {
 	text-align: center;
 }
@@ -24,6 +34,12 @@ a:hover, a:active  {
 	width: 80%;
 	display: inline-block;
 	max-width: 1200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-view {
+  	width: 100%;
+  }
 }
 
 .header {
