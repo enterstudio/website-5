@@ -1,9 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
-  line-height: 1.4em;
+  font-size: 1em;
+  line-height: 1.5em;
   background-color: #f8f7f5;
   color: #333;
 }
@@ -17,8 +17,13 @@ a:hover, a:active  {
 }
 
 h3 {
+  margin-top: 40px;
   text-align: center;
   font-size: 26px;
+}
+
+h3 a {
+  text-decoration: none;
 }
 
 h2 {
