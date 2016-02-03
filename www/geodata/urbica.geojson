@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Name": "Urbica Design" }, "geometry": { "type": "Point", "coordinates": [ 37.600467040087999, 55.720435731326489 ] } }
+]
+}
