@@ -12,12 +12,13 @@ var svg = d3.select("#colormap").append("svg")
 var extent = [[37.460,55.706],[37.746,55.796]];
 var lines = [];
 var offset = 0;
+var pw = (width>1200) ? width : 1200;
 
 //specifying projection
 var projection = d3.geo.mercator()
 //	.center([37.530182,55.768239])
   .center([37.610643,55.778450])
-  .scale(900000);
+  .scale(900000*(pw/1200));
 
 var path = d3.geo.path()
 		.projection(projection);
